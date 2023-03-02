@@ -4,7 +4,7 @@ Real State Management
 
 Nuevo menu en Odoo que nos permite llevar la admistración de inmueble, app de especial interes para inmobiliarias.
 
-Al instalar este modula podrá:
+Al instalar este modulo podrá:
 
 1. Registrar inmuebles en Odoo los datos correspondientes.
 2. Pueden definir un tipo de inmueble para diferenciar los inmueble registrados.
