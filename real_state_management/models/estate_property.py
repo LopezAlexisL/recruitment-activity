@@ -28,6 +28,8 @@ class EstateProperty(models.Model):
     total_area = fields.Float(compute="_compute_total_area")
     best_price = fields.Float(compute="_compute_best_price")
 
+    operation_type = fields.Selection([('sales','Ventas'),('rent','Alquiler')], string='Tipo de Operación')
+
     @api.depends('garden_area', 'living_area')
     def _compute_total_area(self):
         for rec in self:

@@ -43,6 +43,7 @@
                             <field name="property_type_id"/>
                             <field name="postcode"/>
                             <field name="date_availability" string="Available From"/>
+                            <field name="operation_type"/>
                         </group>
                         <group>
                             <field name="expected_price"/>
